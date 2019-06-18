@@ -126,7 +126,7 @@ public class VerDetalleIncidenteController extends ControladorPadre implements I
     private void iniciarMapa(Reporte r) {
         MapViewOptions options = new MapViewOptions();
         options.importPlaces();
-        options.setApiKey("AIzaSyDWeObIntYCZ6Gt2HsQyv_S3NdP61O4MKM");
+        options.setApiKey("AQUI VA LA CLAVE DE GOOGLE MAPS");
         final MapView mapView = new MapView(options);
 
         mapView.setOnMapReadyHandler(new MapReadyHandler() {
