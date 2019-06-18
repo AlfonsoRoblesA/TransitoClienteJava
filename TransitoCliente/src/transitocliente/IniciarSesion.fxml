@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="565.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="transitocliente.IniciarSesionController">
+   <children>
+      <Button fx:id="btn_iniciar" layoutX="259.0" layoutY="297.0" mnemonicParsing="false" onAction="#iniciar" text="Iniciar" />
+      <Label layoutX="143.0" layoutY="134.0" text="Usuario" />
+      <Label layoutX="124.0" layoutY="200.0" text="Contraseña" />
+      <PasswordField fx:id="txt_contrasena" layoutX="200.0" layoutY="196.0" prefHeight="25.0" prefWidth="187.0" />
+      <TextField fx:id="txt_usuario" layoutX="200.0" layoutY="130.0" prefHeight="25.0" prefWidth="187.0" />
+      <Label fx:id="lbl_error" layoutX="261.0" layoutY="254.0" text="lbl_error" />
+   </children>
+</AnchorPane>

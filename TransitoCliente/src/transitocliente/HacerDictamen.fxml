@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="487.0" prefWidth="633.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="transitocliente.HacerDictamenController">
+   <children>
+      <TextArea fx:id="txt_descripcion" layoutX="134.0" layoutY="110.0" prefHeight="267.0" prefWidth="410.0" />
+      <TextField fx:id="txt_folio" layoutX="134.0" layoutY="63.0" />
+      <Label layoutX="71.0" layoutY="68.0" text="Folio" />
+      <Label layoutX="32.0" layoutY="110.0" text="Descripción" />
+      <Label fx:id="lbl_error" layoutX="489.0" layoutY="393.0" text="lbl_error" textFill="RED" visible="false" AnchorPane.bottomAnchor="73.0" AnchorPane.rightAnchor="89.0" AnchorPane.topAnchor="393.0" />
+      <Button fx:id="btn_dictaminar" layoutX="452.0" layoutY="429.0" mnemonicParsing="false" onAction="#clickDictaminar" text="Dictaminar" />
+      <Button fx:id="btn_cancelar" layoutX="57.0" layoutY="429.0" mnemonicParsing="false" onAction="#clicCancelar" text="Cancelar" />
+   </children>
+</AnchorPane>
